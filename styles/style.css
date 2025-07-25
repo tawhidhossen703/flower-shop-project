@@ -604,6 +604,16 @@ transition: color 0.3s;
     padding: 10px 10px 10px 2px;
 
 }
+.btn-primary{
+  font-size: 0.6rem;
+  padding: 8px 5px 8px 5px;
+}
+.plant-card-title{
+  font-size: 1rem;
+}
+.price{
+  font-size: 1.2rem;
+}
 .plant-card{
     margin: 0;
 }

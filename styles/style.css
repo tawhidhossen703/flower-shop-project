@@ -16,9 +16,32 @@
 .noto-serif {
   font-family: 'Noto Serif', serif;
 }
+ 
+
+
+/* shared item */
+.btn-primary{
+    background-color: #e85b00;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: transform 0.3s;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.02);
+}
 
 
 
+.primary-text-color{
+    color: #555;
+}
 
 /* ____Navbar___Style____ */
 
@@ -121,6 +144,111 @@
 
 
 
+/* main section   ----====----   main section   ---==== */
+
+
+/* plant section */
+
+.our-plants{
+  background-color: #f1f5f9;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+ 
+.our-plants h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+ .our-plants .highlight{
+    color: #e85b00;
+
+ }
+ .our-plants .description{
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+ }
+ .plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 26px;                              
+  padding: 20px;                          
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.plant-card {
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+ 
+
+ .plant-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+ }
+.price{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,7 +270,7 @@
 }
 
 .hero{
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 30px 20px;
     text-align: center;
 }
@@ -162,6 +290,25 @@
 .cart{
 font-size: 20px;
 display: block;
+transition: color 0.3s;
 }
+.cart a:hover{
+    color: #e85b00;
+}
+
+.our-plants{
+    margin: 5px 0px;
+}
+.plant-grid{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 0;
+
+}
+.plant-card{
+    margin: 0;
+}
+
 
   }

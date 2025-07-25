@@ -206,15 +206,63 @@
     font-weight: bold;
 }
 
+/* section 2 */
 
 
+.flower-container{
+    display: flex;
+    
+    align-items: flex-start;
+    gap: 110px;
+    padding: 40px 20px;
+    margin: 0px auto;
+    max-width: 1200px;
+    
+}
+.image-section{
+    position: relative;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.text-section{
+    flex: 1;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.main-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 10px;
+}
+.badge{
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 190px;
+    height: 190px;
+}
 
+.lovers-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    
+}
+.badge-title , .lovers-content{
+    margin-left: 90px;
+}
+.main-img{
+    border-radius: 10px;
+    margin-left: 15px;
+}
 
-
-
-
-
-
+.badge-title{
+    font-size: 2rem;
+}
 
 
 
@@ -303,12 +351,49 @@ transition: color 0.3s;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-    padding: 0;
+    padding: 10px 10px 10px 2px;
 
 }
 .plant-card{
     margin: 0;
 }
+  /* section 2 is herer */
 
+
+  .flower-container{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .image-section{
+    width: 100%;
+    /* max-width: 350px; */
+    margin-left: 0;
+    margin-right: 30px;
+
+  }
+  .badge{
+    display: none;
+  }
+  .text-section{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+
+  }
+
+  .badge-title, .lovers-content{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .lovers-content{
+    padding-left: 0;
+  }
 
   }
